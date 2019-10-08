@@ -58,7 +58,7 @@ public class PigmentoDAO implements IPigmentoDAO{
 
 		        }
 		 
-		 stm.executeUpdate();
+		 stm.execute();
 		 stm.close();
 		        
     };
